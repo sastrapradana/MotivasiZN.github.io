@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=Poppins:wght@400;500&family=Roboto+Mono:wght@100;500&family=Roboto:wght@100&family=Ubuntu&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* random */
+span {
+    color: teal;
+}
+
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(img/bg\ bulan\ &\ gunung.avif);
+    background-size: cover;
+    height: 640px;
+    background-size: 0 -900px;
+}
+
+.jumbotron .display-4 {
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px rgba(255, 249, 249, 0.5);
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 170px;
+}
+
+.jumbotron .lead {
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px rgba(255, 249, 249, 0.5);
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.jumbotron .tombol {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tombol .btn {
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: teal;
+}
+
+.tombol .btn:hover {
+    background-color: crimson;
+    transition: .5s ease-in-out;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+/* kehidupan */
+.kehidupan {
+    max-width: 100%;
+    height: 150vh;
+    background-image: url(img/jenin-abumazen-3WwbccT8RFE-unsplash.jpg);
+    background-size: cover;
+    background-position: -500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kehidupan .container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kehidupan .card {
+    width: 300px;
+    margin: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgb(255, 255, 255,0.5);
+}
+
+.card-title {
+    font-family: 'Arvo', serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.card-text {
+    font-family: viga;
+    font-size: 1rem;
+}
+
+/* cinta */
+.Cinta {
+    max-width: 100%;
+    height: 150vh;
+    background-image: url(img/bg\ cinta2.jpg);
+    background-size: cover;
+    background-position: -400px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cinta .container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Cinta .card {
+    width: 300px;
+    margin: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255,0.5);
+}
+
+.Cinta .card-title {
+    font-family: 'Arvo', serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 1.5rem;
+}
+
+.card-text {
+    font-family: viga;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+
+/* agama */
+.agama {
+    max-width: 100%;
+    height: 150vh;
+    background-image: url(img/bg\ agma3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agama .container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.agama .card {
+    width: 300px;
+    margin: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255,0.5);
+}
+
+.agama .card-title {
+    font-family: 'Arvo', serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 1.5rem;
+}
+
+.card-text {
+    font-family: viga;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.row {
+    max-width: 100%;
+    margin: auto;
+    background-color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.row .text {
+    text-align: center;
+}
+
+.row h4 {
+    margin-top: 10px;
+    font-family: viga;
+    color: aliceblue;
+}
+
+.row p {
+    margin-top: 10px;
+    font-family: viga;
+    color: aliceblue;
+    margin-top: -5px;
+}
+
+.row #love {
+    color: crimson;
+}
+
+.row i {
+    color: teal;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop version */
+@media (min-width: 992px) {
+
+    .navbar-brand {
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        color: aliceblue;
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        text-shadow: 1px 1px 1px rgba(255, 249, 249, 0.5);
+    }
+    
+    .navbar-nav {
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px rgba(255, 249, 249, 0.5);
+    }
+    
+    .navbar-nav a {
+        margin: 10px;
+    }
+    
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid white;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -7px;
+    }
+
+    .jumbotron {
+        margin-top: -80px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 2.5rem;
+        padding-top: 250px;
+    }
+
+    .Cinta {
+        background-position: 0 -120px;
+        height: 100vh;
+    }
+
+    .kehidupan, .agama {
+        background-position: 0 -200px;
+        height: 100vh;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
